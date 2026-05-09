@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>devclub Refri</title>
+</head>
+<body>
+    <main>
+        <!-- Cada .item é um slide do carrossel de refrigerantes -->
+        <div class="item active" style="--background: #ea3d41">
+            <!-- Nome do sabor exibido no centro do slide -->
+            <div class="title">Morango</div>
+            <!-- Imagem da fruta em primeiro plano -->
+            <img src="img/Morango-refrigerante-foregroundBlur.png" class="fruit">
+            <!-- Imagem do refrigerante no slide -->
+            <img src="img/Morango-refrigerante.png" class="refri">
+        </div>
+
+        <div class="item" style="--background: #2d5643">
+            <div class="title">Morango</div>
+            <img src="img/Abacate-refrigerante-foregroundBlur.png" class="fruit">
+            <img src="img/Abacate-refrigerante.png" class="refri">
+        </div>
+
+        <div class="item" style="--background: #e7a043">
+            <div class="title">Morango</div>
+            <img src="img/Laranja-refrigerante-foregroundBlur.png" class="fruit">
+            <img src="img/Laranja-refrigerante.png" class="refri">
+        </div>
+
+        <!-- Botões de navegação para ir ao slide anterior ou próximo -->
+        <div class="arrow">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+    </main>
+
+    <!-- Carrega o script depois do HTML para garantir que os elementos existam -->
+    <script src="./script.js"></script>
+</body>
+</html>
